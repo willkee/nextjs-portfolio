@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1;
+	background-color: rgba(999, 999, 999, 0.1);
+	height: 100px;
+}
+.home {
+	width: 50%;
+}
+.links {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 50%;
+}
+
+.links a {
+	margin-right: 3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	.wk_logo {
+		filter: invert(0.8);
+	}
+}
+
+.wk_logo:hover {
+	color: green;
+	background-color: rgba(999, 999, 999, 0.25);
+	cursor: pointer;
+}
