@@ -1,15 +1,12 @@
-import Image from "next/image";
-import styles from "../styles/page.module.css";
-import AppBar from "./components/AppBar";
-import Router from "next/router";
+import styles from "src/styles/about.module.css";
 
-export default function Home() {
+export default function About() {
 	return (
 		<>
-			{/* <AppBar /> */}
 			<main className={styles.main}>
 				{/* <div className={styles.center}></div> */}
 				<div className={styles.grid}>
+					About Page
 					{/* <a
 						href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
 						className={styles.card}
